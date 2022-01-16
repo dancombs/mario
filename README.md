@@ -51,7 +51,8 @@ Setup
 1. Create a MongoDB database and setup the collections from the folder - "MongoDB_Schema".
 2. Create a CLI (command line interface) project and add the source code from this project.
 3. Add the required project dependencies listed above into your project solution.
-4. Program.cs is the entry point.
+4. Fill in the Coinbase Pro API key information inside the collection "0_app_settings".
+5. Program.cs is the entry point.
 
 <hr/>
 
