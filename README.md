@@ -46,12 +46,13 @@ Project Dependencies
 5. Tulip.NETCore
 6. WebSocketSharp-netstandard
 
+Setup
+===================================
+1. Create a MongoDB database and setup the collections from the folder - "MongoDB_Schema".
+2. Create a CLI (command line interface) project and add the source code from this project.
+3. Add the required project dependencies listed above into your project solution.
+4. Program.cs is the entry point.
+
 <hr/>
 
-Create a CLI (command line interface) project and add the source code from this project.
-<br/>
-Add the required project dependencies listed above.
-<br/>
-Program.cs is the entry point.
-<br/><br/>
 The project was built using Apple MacOS so there are OS specific calls that you will need to workaround (if you're on a different platform). An example, to trigger the audio sound when buying/selling a coin - the code utilizes the command line "afplay" which is MacOS specific. Windows/Linux systems can substitute with VLCPLayer command interface to mimic the same functionality.
