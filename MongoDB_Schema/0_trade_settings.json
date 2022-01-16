@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "61afa9d7de357976275f2c8b"
+  },
+  "locked": false,
+  "symbol": "",
+  "chain_id": "",
+  "total_cash_to_play": {
+    "$numberDecimal": "1.00"
+  },
+  "cash_per_trade": {
+    "$numberDecimal": "1.00"
+  },
+  "ta_history_period": 200,
+  "wait_buy_to_average_min": 600,
+  "wait_buy_to_average_max": 1800,
+  "duration_candle": "1min"
+}]
