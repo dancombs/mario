@@ -53,7 +53,10 @@ Setup
 3. Add the required project dependencies listed above into your project solution.
 4. Fill in the Coinbase Pro API key information inside the collection "0_app_settings".
 5. Program.cs is the entry point.
-
+<br/>
+YouTube discussing the critical parts:
+<br/>
+https://www.youtube.com/watch?v=kl9Kju9Hur0
 <hr/>
 
 The project was built using Apple MacOS so there are OS specific calls that you will need to workaround (if you're on a different platform). An example, to trigger the audio sound when buying/selling a coin - the code utilizes the command line "afplay" which is MacOS specific. Windows/Linux systems can substitute with VLCPLayer command interface to mimic the same functionality.
